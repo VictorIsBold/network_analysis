@@ -1,0 +1,32 @@
+1. Define:
+
+	(a) Subgraph
+
+        Um subgrafo é um subconjunto de vértices e arestas em relação a outro grafo.
+	
+	(b) Bipartite graph.
+
+        Grafo bipartido é o grafo que pode ser subdividido em dois conjuntos de vértices
+            tais que nenhum vértice de um desses conjuntos possui aresta com outro vértice do mesmo conjunto.
+	
+	(c) Hamiltonian graph
+        
+        Se possui um caminho hamiltoniano, um grafo pode ser chamado de hamiltoniano. 
+            Um caminho hamiltoniano é uma caminhada que passa por vértices apenas uma vez e termina onde começou.
+	
+	(d) Eulerian graph.
+
+        Se possui um caminho euleriano, um grafo pode ser chamado de euleriano.
+            Um caminho euleriano é um caminho em um grafo que visita toda aresta exatamente uma vez.
+
+
+
+2. Describe how a breadth-first search algorithm works.
+
+    Um algortimo de busca por largura funciona buscando, a partir de um nó/vértice inicial, seus vizinhos, e então buscando os vizinhos dos vizinhos e assim por diante, aumentando a "profundidade" da busca um nível por vez.
+
+
+3. How many edges does a complete graph with n vertices have? What about a complete directed graph with n vertices?
+
+    Um grafo completo com n vértices possui (n * n - 1) / 2 arestas.
+    Já um grafo direcionado completo possui (n * n - 1) arestas.
